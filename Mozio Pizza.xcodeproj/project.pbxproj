@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FB16E6223A6E0900683E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB16E5223A6E0900683E45 /* AppDelegate.swift */; };
+		04FB16E8223A6E0900683E45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB16E7223A6E0900683E45 /* ViewController.swift */; };
+		04FB16EB223A6E0900683E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB16E9223A6E0900683E45 /* Main.storyboard */; };
+		04FB16ED223A6E0A00683E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB16EC223A6E0A00683E45 /* Assets.xcassets */; };
+		04FB16F0223A6E0A00683E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB16EE223A6E0A00683E45 /* LaunchScreen.storyboard */; };
+		04FB16FB223A6E0A00683E45 /* Mozio_PizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB16FA223A6E0A00683E45 /* Mozio_PizzaTests.swift */; };
+		04FB1706223A6E0A00683E45 /* Mozio_PizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB1705223A6E0A00683E45 /* Mozio_PizzaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FB16F7223A6E0A00683E45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FB16DA223A6E0900683E45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FB16E1223A6E0900683E45;
+			remoteInfo = "Mozio Pizza";
+		};
+		04FB1702223A6E0A00683E45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FB16DA223A6E0900683E45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FB16E1223A6E0900683E45;
+			remoteInfo = "Mozio Pizza";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FB16E2223A6E0900683E45 /* Mozio Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mozio Pizza.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FB16E5223A6E0900683E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04FB16E7223A6E0900683E45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04FB16EA223A6E0900683E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FB16EC223A6E0A00683E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FB16EF223A6E0A00683E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FB16F1223A6E0A00683E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FB16F6223A6E0A00683E45 /* Mozio PizzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mozio PizzaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FB16FA223A6E0A00683E45 /* Mozio_PizzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mozio_PizzaTests.swift; sourceTree = "<group>"; };
+		04FB16FC223A6E0A00683E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FB1701223A6E0A00683E45 /* Mozio PizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mozio PizzaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FB1705223A6E0A00683E45 /* Mozio_PizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mozio_PizzaUITests.swift; sourceTree = "<group>"; };
+		04FB1707223A6E0A00683E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FB16DF223A6E0900683E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FB16F3223A6E0A00683E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FB16FE223A6E0A00683E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FB16D9223A6E0900683E45 = {
+			isa = PBXGroup;
+			children = (
+				04FB16E4223A6E0900683E45 /* Mozio Pizza */,
+				04FB16F9223A6E0A00683E45 /* Mozio PizzaTests */,
+				04FB1704223A6E0A00683E45 /* Mozio PizzaUITests */,
+				04FB16E3223A6E0900683E45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FB16E3223A6E0900683E45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FB16E2223A6E0900683E45 /* Mozio Pizza.app */,
+				04FB16F6223A6E0A00683E45 /* Mozio PizzaTests.xctest */,
+				04FB1701223A6E0A00683E45 /* Mozio PizzaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FB16E4223A6E0900683E45 /* Mozio Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				04FB16E5223A6E0900683E45 /* AppDelegate.swift */,
+				04FB16E7223A6E0900683E45 /* ViewController.swift */,
+				04FB16E9223A6E0900683E45 /* Main.storyboard */,
+				04FB16EC223A6E0A00683E45 /* Assets.xcassets */,
+				04FB16EE223A6E0A00683E45 /* LaunchScreen.storyboard */,
+				04FB16F1223A6E0A00683E45 /* Info.plist */,
+			);
+			path = "Mozio Pizza";
+			sourceTree = "<group>";
+		};
+		04FB16F9223A6E0A00683E45 /* Mozio PizzaTests */ = {
+			isa = PBXGroup;
+			children = (
+				04FB16FA223A6E0A00683E45 /* Mozio_PizzaTests.swift */,
+				04FB16FC223A6E0A00683E45 /* Info.plist */,
+			);
+			path = "Mozio PizzaTests";
+			sourceTree = "<group>";
+		};
+		04FB1704223A6E0A00683E45 /* Mozio PizzaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04FB1705223A6E0A00683E45 /* Mozio_PizzaUITests.swift */,
+				04FB1707223A6E0A00683E45 /* Info.plist */,
+			);
+			path = "Mozio PizzaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FB16E1223A6E0900683E45 /* Mozio Pizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FB170A223A6E0A00683E45 /* Build configuration list for PBXNativeTarget "Mozio Pizza" */;
+			buildPhases = (
+				04FB16DE223A6E0900683E45 /* Sources */,
+				04FB16DF223A6E0900683E45 /* Frameworks */,
+				04FB16E0223A6E0900683E45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mozio Pizza";
+			productName = "Mozio Pizza";
+			productReference = 04FB16E2223A6E0900683E45 /* Mozio Pizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FB16F5223A6E0A00683E45 /* Mozio PizzaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FB170D223A6E0A00683E45 /* Build configuration list for PBXNativeTarget "Mozio PizzaTests" */;
+			buildPhases = (
+				04FB16F2223A6E0A00683E45 /* Sources */,
+				04FB16F3223A6E0A00683E45 /* Frameworks */,
+				04FB16F4223A6E0A00683E45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FB16F8223A6E0A00683E45 /* PBXTargetDependency */,
+			);
+			name = "Mozio PizzaTests";
+			productName = "Mozio PizzaTests";
+			productReference = 04FB16F6223A6E0A00683E45 /* Mozio PizzaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04FB1700223A6E0A00683E45 /* Mozio PizzaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FB1710223A6E0A00683E45 /* Build configuration list for PBXNativeTarget "Mozio PizzaUITests" */;
+			buildPhases = (
+				04FB16FD223A6E0A00683E45 /* Sources */,
+				04FB16FE223A6E0A00683E45 /* Frameworks */,
+				04FB16FF223A6E0A00683E45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FB1703223A6E0A00683E45 /* PBXTargetDependency */,
+			);
+			name = "Mozio PizzaUITests";
+			productName = "Mozio PizzaUITests";
+			productReference = 04FB1701223A6E0A00683E45 /* Mozio PizzaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FB16DA223A6E0900683E45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04FB16E1223A6E0900683E45 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					04FB16F5223A6E0A00683E45 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04FB16E1223A6E0900683E45;
+					};
+					04FB1700223A6E0A00683E45 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04FB16E1223A6E0900683E45;
+					};
+				};
+			};
+			buildConfigurationList = 04FB16DD223A6E0900683E45 /* Build configuration list for PBXProject "Mozio Pizza" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FB16D9223A6E0900683E45;
+			productRefGroup = 04FB16E3223A6E0900683E45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FB16E1223A6E0900683E45 /* Mozio Pizza */,
+				04FB16F5223A6E0A00683E45 /* Mozio PizzaTests */,
+				04FB1700223A6E0A00683E45 /* Mozio PizzaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FB16E0223A6E0900683E45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FB16F0223A6E0A00683E45 /* LaunchScreen.storyboard in Resources */,
+				04FB16ED223A6E0A00683E45 /* Assets.xcassets in Resources */,
+				04FB16EB223A6E0900683E45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FB16F4223A6E0A00683E45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FB16FF223A6E0A00683E45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FB16DE223A6E0900683E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FB16E8223A6E0900683E45 /* ViewController.swift in Sources */,
+				04FB16E6223A6E0900683E45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FB16F2223A6E0A00683E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FB16FB223A6E0A00683E45 /* Mozio_PizzaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FB16FD223A6E0A00683E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FB1706223A6E0A00683E45 /* Mozio_PizzaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FB16F8223A6E0A00683E45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FB16E1223A6E0900683E45 /* Mozio Pizza */;
+			targetProxy = 04FB16F7223A6E0A00683E45 /* PBXContainerItemProxy */;
+		};
+		04FB1703223A6E0A00683E45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FB16E1223A6E0900683E45 /* Mozio Pizza */;
+			targetProxy = 04FB1702223A6E0A00683E45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FB16E9223A6E0900683E45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FB16EA223A6E0900683E45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FB16EE223A6E0A00683E45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FB16EF223A6E0A00683E45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FB1708223A6E0A00683E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04FB1709223A6E0A00683E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FB170B223A6E0A00683E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83CKL8DQ7Z;
+				INFOPLIST_FILE = "Mozio Pizza/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hadynourallah.Mozio-Pizza";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04FB170C223A6E0A00683E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83CKL8DQ7Z;
+				INFOPLIST_FILE = "Mozio Pizza/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hadynourallah.Mozio-Pizza";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04FB170E223A6E0A00683E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83CKL8DQ7Z;
+				INFOPLIST_FILE = "Mozio PizzaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hadynourallah.Mozio-PizzaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mozio Pizza.app/Mozio Pizza";
+			};
+			name = Debug;
+		};
+		04FB170F223A6E0A00683E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83CKL8DQ7Z;
+				INFOPLIST_FILE = "Mozio PizzaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hadynourallah.Mozio-PizzaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mozio Pizza.app/Mozio Pizza";
+			};
+			name = Release;
+		};
+		04FB1711223A6E0A00683E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83CKL8DQ7Z;
+				INFOPLIST_FILE = "Mozio PizzaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hadynourallah.Mozio-PizzaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mozio Pizza";
+			};
+			name = Debug;
+		};
+		04FB1712223A6E0A00683E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83CKL8DQ7Z;
+				INFOPLIST_FILE = "Mozio PizzaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hadynourallah.Mozio-PizzaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mozio Pizza";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FB16DD223A6E0900683E45 /* Build configuration list for PBXProject "Mozio Pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FB1708223A6E0A00683E45 /* Debug */,
+				04FB1709223A6E0A00683E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FB170A223A6E0A00683E45 /* Build configuration list for PBXNativeTarget "Mozio Pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FB170B223A6E0A00683E45 /* Debug */,
+				04FB170C223A6E0A00683E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FB170D223A6E0A00683E45 /* Build configuration list for PBXNativeTarget "Mozio PizzaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FB170E223A6E0A00683E45 /* Debug */,
+				04FB170F223A6E0A00683E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FB1710223A6E0A00683E45 /* Build configuration list for PBXNativeTarget "Mozio PizzaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FB1711223A6E0A00683E45 /* Debug */,
+				04FB1712223A6E0A00683E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FB16DA223A6E0900683E45 /* Project object */;
+}
