@@ -1,0 +1,6 @@
+framework module Pods_Mozio_PizzaUITests {
+  umbrella header "Pods-Mozio PizzaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

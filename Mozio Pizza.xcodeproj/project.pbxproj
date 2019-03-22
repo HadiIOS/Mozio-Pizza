@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0424334B22411F070013AB29 /* PizzaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424334A22411F060013AB29 /* PizzaService.swift */; };
+		0424334D22411F420013AB29 /* DAOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424334C22411F420013AB29 /* DAOManager.swift */; };
+		0424335122411FB20013AB29 /* ServiceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424335022411FB20013AB29 /* ServiceUtil.swift */; };
+		0424335922412B150013AB29 /* PizzaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424335822412B150013AB29 /* PizzaManager.swift */; };
+		0424335E22413B170013AB29 /* MozioAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424335C22413B170013AB29 /* MozioAlert.swift */; };
+		0424336122413B170013AB29 /* MozioAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0424335D22413B170013AB29 /* MozioAlert.xib */; };
+		04243366224154E10013AB29 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04243365224154E10013AB29 /* OrderViewController.swift */; };
+		0424336B2241551A0013AB29 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424336A2241551A0013AB29 /* OrderTableViewCell.swift */; };
+		0463AD1122418A760064A921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB16E9223A6E0900683E45 /* Main.storyboard */; };
+		0463AD1222418A760064A921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB16E9223A6E0900683E45 /* Main.storyboard */; };
+		0463AD1B22418C150064A921 /* PizzaObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04243354224122F60013AB29 /* PizzaObject.swift */; };
+		04769310223BB68100B0C8BF /* MozioPizzaPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476930F223BB68100B0C8BF /* MozioPizzaPicker.swift */; };
+		04769312223BF76800B0C8BF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04769311223BF76800B0C8BF /* Extensions.swift */; };
 		04FB16E6223A6E0900683E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB16E5223A6E0900683E45 /* AppDelegate.swift */; };
 		04FB16E8223A6E0900683E45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB16E7223A6E0900683E45 /* ViewController.swift */; };
 		04FB16EB223A6E0900683E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB16E9223A6E0900683E45 /* Main.storyboard */; };
@@ -14,6 +27,9 @@
 		04FB16F0223A6E0A00683E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB16EE223A6E0A00683E45 /* LaunchScreen.storyboard */; };
 		04FB16FB223A6E0A00683E45 /* Mozio_PizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB16FA223A6E0A00683E45 /* Mozio_PizzaTests.swift */; };
 		04FB1706223A6E0A00683E45 /* Mozio_PizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB1705223A6E0A00683E45 /* Mozio_PizzaUITests.swift */; };
+		1BF084BBF15AA3970201EFEE /* Pods_Mozio_PizzaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF66599018B2DB7D5ED214E /* Pods_Mozio_PizzaUITests.framework */; };
+		C83D92C9A9C9B30A6404BD58 /* Pods_Mozio_Pizza.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE73BB706379A7E3CCDD3E0 /* Pods_Mozio_Pizza.framework */; };
+		CA661F940E995C0F9A9ADC96 /* Pods_Mozio_PizzaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09926D589571CDFBFACFA45 /* Pods_Mozio_PizzaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0424334A22411F060013AB29 /* PizzaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaService.swift; sourceTree = "<group>"; };
+		0424334C22411F420013AB29 /* DAOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOManager.swift; sourceTree = "<group>"; };
+		0424335022411FB20013AB29 /* ServiceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceUtil.swift; sourceTree = "<group>"; };
+		04243354224122F60013AB29 /* PizzaObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaObject.swift; sourceTree = "<group>"; };
+		0424335822412B150013AB29 /* PizzaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaManager.swift; sourceTree = "<group>"; };
+		0424335C22413B170013AB29 /* MozioAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MozioAlert.swift; sourceTree = "<group>"; };
+		0424335D22413B170013AB29 /* MozioAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MozioAlert.xib; sourceTree = "<group>"; };
+		04243365224154E10013AB29 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		0424336A2241551A0013AB29 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		0476930F223BB68100B0C8BF /* MozioPizzaPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MozioPizzaPicker.swift; sourceTree = "<group>"; };
+		04769311223BF76800B0C8BF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		04FB16E2223A6E0900683E45 /* Mozio Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mozio Pizza.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FB16E5223A6E0900683E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FB16E7223A6E0900683E45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +74,15 @@
 		04FB1701223A6E0A00683E45 /* Mozio PizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mozio PizzaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FB1705223A6E0A00683E45 /* Mozio_PizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mozio_PizzaUITests.swift; sourceTree = "<group>"; };
 		04FB1707223A6E0A00683E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0C7B4D28DA8150CA3E20AD /* Pods-Mozio Pizza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozio Pizza.debug.xcconfig"; path = "Target Support Files/Pods-Mozio Pizza/Pods-Mozio Pizza.debug.xcconfig"; sourceTree = "<group>"; };
+		4C70100017E5D9F8C2FB4A42 /* Pods-Mozio PizzaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozio PizzaUITests.release.xcconfig"; path = "Target Support Files/Pods-Mozio PizzaUITests/Pods-Mozio PizzaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8219EFFA49D8CC928BB34EA7 /* Pods-Mozio PizzaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozio PizzaTests.debug.xcconfig"; path = "Target Support Files/Pods-Mozio PizzaTests/Pods-Mozio PizzaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A09926D589571CDFBFACFA45 /* Pods_Mozio_PizzaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mozio_PizzaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF66599018B2DB7D5ED214E /* Pods_Mozio_PizzaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mozio_PizzaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C549D6B48A4DF5A67CC9CF35 /* Pods-Mozio PizzaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozio PizzaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mozio PizzaUITests/Pods-Mozio PizzaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBE73BB706379A7E3CCDD3E0 /* Pods_Mozio_Pizza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mozio_Pizza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85B63A1C10885DE33702F65 /* Pods-Mozio Pizza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozio Pizza.release.xcconfig"; path = "Target Support Files/Pods-Mozio Pizza/Pods-Mozio Pizza.release.xcconfig"; sourceTree = "<group>"; };
+		EC8140FD07451A705D4F9E32 /* Pods-Mozio PizzaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozio PizzaTests.release.xcconfig"; path = "Target Support Files/Pods-Mozio PizzaTests/Pods-Mozio PizzaTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83D92C9A9C9B30A6404BD58 /* Pods_Mozio_Pizza.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA661F940E995C0F9A9ADC96 /* Pods_Mozio_PizzaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +106,85 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF084BBF15AA3970201EFEE /* Pods_Mozio_PizzaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04243364224140590013AB29 /* MozioPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0424335C22413B170013AB29 /* MozioAlert.swift */,
+				0424335D22413B170013AB29 /* MozioAlert.xib */,
+			);
+			path = MozioPicker;
+			sourceTree = "<group>";
+		};
+		04243369224155090013AB29 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0424336A2241551A0013AB29 /* OrderTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		04AA9FD1223AA01100BF4204 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04FB16E7223A6E0900683E45 /* ViewController.swift */,
+				04243365224154E10013AB29 /* OrderViewController.swift */,
+				04243369224155090013AB29 /* Cells */,
+				04FB16E9223A6E0900683E45 /* Main.storyboard */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04AA9FD2223AA01C00BF4204 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0424334C22411F420013AB29 /* DAOManager.swift */,
+				0424335822412B150013AB29 /* PizzaManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		04AA9FD3223AA02700BF4204 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0424334A22411F060013AB29 /* PizzaService.swift */,
+				0424335022411FB20013AB29 /* ServiceUtil.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04AA9FD4223AA03500BF4204 /* DB Models */ = {
+			isa = PBXGroup;
+			children = (
+				04243354224122F60013AB29 /* PizzaObject.swift */,
+			);
+			path = "DB Models";
+			sourceTree = "<group>";
+		};
+		04AA9FD5223AA04700BF4204 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				04AA9FDA223B329D00BF4204 /* MozioPizzaPicker */,
+				04769311223BF76800B0C8BF /* Extensions.swift */,
+				04243364224140590013AB29 /* MozioPicker */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		04AA9FDA223B329D00BF4204 /* MozioPizzaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0476930F223BB68100B0C8BF /* MozioPizzaPicker.swift */,
+			);
+			path = MozioPizzaPicker;
+			sourceTree = "<group>";
+		};
 		04FB16D9223A6E0900683E45 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +192,8 @@
 				04FB16F9223A6E0A00683E45 /* Mozio PizzaTests */,
 				04FB1704223A6E0A00683E45 /* Mozio PizzaUITests */,
 				04FB16E3223A6E0900683E45 /* Products */,
+				858D316B5B8BEBC4F6ABC319 /* Pods */,
+				1527437D697781552CDBBBE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +211,11 @@
 			isa = PBXGroup;
 			children = (
 				04FB16E5223A6E0900683E45 /* AppDelegate.swift */,
-				04FB16E7223A6E0900683E45 /* ViewController.swift */,
-				04FB16E9223A6E0900683E45 /* Main.storyboard */,
+				04AA9FD1223AA01100BF4204 /* ViewControllers */,
+				04AA9FD2223AA01C00BF4204 /* Managers */,
+				04AA9FD3223AA02700BF4204 /* Services */,
+				04AA9FD4223AA03500BF4204 /* DB Models */,
+				04AA9FD5223AA04700BF4204 /* Components */,
 				04FB16EC223A6E0A00683E45 /* Assets.xcassets */,
 				04FB16EE223A6E0A00683E45 /* LaunchScreen.storyboard */,
 				04FB16F1223A6E0A00683E45 /* Info.plist */,
@@ -125,6 +241,29 @@
 			path = "Mozio PizzaUITests";
 			sourceTree = "<group>";
 		};
+		1527437D697781552CDBBBE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBE73BB706379A7E3CCDD3E0 /* Pods_Mozio_Pizza.framework */,
+				A09926D589571CDFBFACFA45 /* Pods_Mozio_PizzaTests.framework */,
+				BCF66599018B2DB7D5ED214E /* Pods_Mozio_PizzaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858D316B5B8BEBC4F6ABC319 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E0C7B4D28DA8150CA3E20AD /* Pods-Mozio Pizza.debug.xcconfig */,
+				E85B63A1C10885DE33702F65 /* Pods-Mozio Pizza.release.xcconfig */,
+				8219EFFA49D8CC928BB34EA7 /* Pods-Mozio PizzaTests.debug.xcconfig */,
+				EC8140FD07451A705D4F9E32 /* Pods-Mozio PizzaTests.release.xcconfig */,
+				C549D6B48A4DF5A67CC9CF35 /* Pods-Mozio PizzaUITests.debug.xcconfig */,
+				4C70100017E5D9F8C2FB4A42 /* Pods-Mozio PizzaUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FB170A223A6E0A00683E45 /* Build configuration list for PBXNativeTarget "Mozio Pizza" */;
 			buildPhases = (
+				7B8CD4CEFDA4B440AC350363 /* [CP] Check Pods Manifest.lock */,
 				04FB16DE223A6E0900683E45 /* Sources */,
 				04FB16DF223A6E0900683E45 /* Frameworks */,
 				04FB16E0223A6E0900683E45 /* Resources */,
+				468FD4FDF923C020FB6A6C60 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FB170D223A6E0A00683E45 /* Build configuration list for PBXNativeTarget "Mozio PizzaTests" */;
 			buildPhases = (
+				F0CA7352D62B85F8AD8F233F /* [CP] Check Pods Manifest.lock */,
 				04FB16F2223A6E0A00683E45 /* Sources */,
 				04FB16F3223A6E0A00683E45 /* Frameworks */,
 				04FB16F4223A6E0A00683E45 /* Resources */,
+				0D6C30FB0215CAE1083C398E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FB1710223A6E0A00683E45 /* Build configuration list for PBXNativeTarget "Mozio PizzaUITests" */;
 			buildPhases = (
+				FF873AB3E0C82AF44C461EC4 /* [CP] Check Pods Manifest.lock */,
 				04FB16FD223A6E0A00683E45 /* Sources */,
 				04FB16FE223A6E0A00683E45 /* Frameworks */,
 				04FB16FF223A6E0A00683E45 /* Resources */,
+				BADFD9DCC1E2604F42A6A53E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FB16F0223A6E0A00683E45 /* LaunchScreen.storyboard in Resources */,
+				0424336122413B170013AB29 /* MozioAlert.xib in Resources */,
 				04FB16ED223A6E0A00683E45 /* Assets.xcassets in Resources */,
 				04FB16EB223A6E0900683E45 /* Main.storyboard in Resources */,
 			);
@@ -239,6 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0463AD1222418A760064A921 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +393,168 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0463AD1122418A760064A921 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D6C30FB0215CAE1083C398E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mozio PizzaTests/Pods-Mozio PizzaTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mozio PizzaTests/Pods-Mozio PizzaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		468FD4FDF923C020FB6A6C60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mozio Pizza/Pods-Mozio Pizza-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mozio Pizza/Pods-Mozio Pizza-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B8CD4CEFDA4B440AC350363 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mozio Pizza-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BADFD9DCC1E2604F42A6A53E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mozio PizzaUITests/Pods-Mozio PizzaUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mozio PizzaUITests/Pods-Mozio PizzaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0CA7352D62B85F8AD8F233F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mozio PizzaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF873AB3E0C82AF44C461EC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mozio PizzaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04FB16DE223A6E0900683E45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0463AD1B22418C150064A921 /* PizzaObject.swift in Sources */,
 				04FB16E8223A6E0900683E45 /* ViewController.swift in Sources */,
+				0424335E22413B170013AB29 /* MozioAlert.swift in Sources */,
+				0424335922412B150013AB29 /* PizzaManager.swift in Sources */,
+				0424335122411FB20013AB29 /* ServiceUtil.swift in Sources */,
+				0424334B22411F070013AB29 /* PizzaService.swift in Sources */,
+				0424336B2241551A0013AB29 /* OrderTableViewCell.swift in Sources */,
+				0424334D22411F420013AB29 /* DAOManager.swift in Sources */,
+				04769310223BB68100B0C8BF /* MozioPizzaPicker.swift in Sources */,
 				04FB16E6223A6E0900683E45 /* AppDelegate.swift in Sources */,
+				04243366224154E10013AB29 /* OrderViewController.swift in Sources */,
+				04769312223BF76800B0C8BF /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +727,7 @@
 		};
 		04FB170B223A6E0A00683E45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0C7B4D28DA8150CA3E20AD /* Pods-Mozio Pizza.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +746,7 @@
 		};
 		04FB170C223A6E0A00683E45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E85B63A1C10885DE33702F65 /* Pods-Mozio Pizza.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +765,7 @@
 		};
 		04FB170E223A6E0A00683E45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8219EFFA49D8CC928BB34EA7 /* Pods-Mozio PizzaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +787,7 @@
 		};
 		04FB170F223A6E0A00683E45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8140FD07451A705D4F9E32 /* Pods-Mozio PizzaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +809,7 @@
 		};
 		04FB1711223A6E0A00683E45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C549D6B48A4DF5A67CC9CF35 /* Pods-Mozio PizzaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +830,7 @@
 		};
 		04FB1712223A6E0A00683E45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C70100017E5D9F8C2FB4A42 /* Pods-Mozio PizzaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
